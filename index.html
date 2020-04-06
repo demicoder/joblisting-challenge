@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -14,5 +12,51 @@
 
     <title>Frontend Mentor | Job Listings</title>
   </head>
-  <body></body>
+  <body>
+    <div class="header"></div>
+
+    <!-- Job 1 -->
+    <div
+      class="job"
+      data-role="frontend"
+      data-level="senior"
+      data-languages="html, css, javascript"
+      data-job="{level: ['senior'],role:'frontend',languages: ['html', 'css', 'javascript'], tools: ['react'] }"
+    >
+      <div>
+        <div class="job__img">
+          <img
+            src="images/photosnap.svg"
+            alt="Photosnap"
+            class="job__img--img"
+          />
+        </div>
+        <div class="job__info">
+          <h2>Photosnap</h2>
+          <ul>
+            <li class="job__new"><a href="#">New</a></li>
+            <li class="job__featured"><a href="#">Featured</a></li>
+          </ul>
+        </div>
+
+        <h1 class="job__company">Senior Frontend Developer</h1>
+        <ul class="jon__specs">
+          <li><a href="#">1d</a></li>
+          <li><a href="#">Full time</a></li>
+          <li><a href="#">USA Only</a></li>
+        </ul>
+      </div>
+
+      <div class="job__tools">
+        <ul>
+          <li><a href="#">Frontend</a></li>
+          <li><a href="#">Senior </a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS </a></li>
+          <li><a href="#">JavaScript </a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Job 1 end -->
+  </body>
 </html>
