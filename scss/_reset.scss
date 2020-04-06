@@ -1,0 +1,17 @@
+*:after,
+*:before,
+* {
+  font-size: 100%;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
